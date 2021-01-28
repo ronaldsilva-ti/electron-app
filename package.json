@@ -2,6 +2,9 @@
   "name": "app-electron",
   "homepage": "./",
   "main": "./electron/main.js",
+  "build":{
+    "appId":"display.menu"
+  },
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -24,7 +27,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "ebuild": "npm run build && node_modules/.bin/build"
+    "ebuild": "npm run build && node_modules/.bin/build",
+    "electron-build":"electron-builder"
   },
   "eslintConfig": {
     "extends": [
