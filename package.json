@@ -1,5 +1,7 @@
 {
   "name": "app-electron",
+  "homepage": "./",
+  "main": "./electron/main.js",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
